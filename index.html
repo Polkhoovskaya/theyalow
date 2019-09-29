@@ -2,12 +2,117 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./style.css">
-    <title>Theyalow</title>
+    <meta name="viewport" content="width = device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <title>theyalow</title>
 </head>
 <body>
+    <section class="header">
+    <header class="container row">
+        <div class="logo">
+            <a href="#" class="logo-img"> <img src="./assets/svg/logo.svg" alt="logo"></a>
+            <a href="#"><h1>Theyealow</h1></a>
+        </div>
+        <ul class="navbar">
+            <li> <a href="#"><img src="./assets/svg/about-us.svg" alt="About us"></a><span class="link">About us</span></a></li>
+            <li><a href="#"><img src="./assets/svg/services.svg" alt="Service"></a><span class="link">Service</span></a></li>
+            <li><a href="#"><img src="./assets/svg/contacts.svg" alt="Contact"></a><span class="link">Contact</span></a></li>
+        </ul>
+    </header>
+
+    <div class="video-area container row">
+        <div class="player slick" >
+            <div class="player__item">
+                    <video  poster="./assets/images/player.png" controls>
+                       <source src="./assets/video/RIO.mp4">
+                    </video>
+                <div class="player__title">
+                    <h2><span>The cool</span><br>The Minimal</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="main">
+        <section class="offer container row-around">
+            <div class=" offer__item">
+                <div class="offer-link"><a href="" ><img src="./assets/svg/leaf.svg" alt=""></a></div>
+                <h4>Better design</h4>
+            </div>
+            <div class=" offer__item">
+                <div class="offer-link"><a href="" ><img src="./assets/svg/download.svg" alt=""></a></div>
+                <h4>Customise</h4>
+            </div>
+            <div class=" offer__item">
+                <div class="offer-link"><a href=""><img src="./assets/svg/paper-plane.svg" alt=""></a></div>
+                <h4>Its Free</h4>
+            </div>
+       </section>
+        <section class="view">
+            <div class="container">
+            <h3>Lorem ipsum dolor sit amet</h3>
+            <div class="view__items row">
+              <div class="view__item">
+                 <div class="view__item_text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut</p>
+                 </div>
+                  <div  id="video" class="video">
+                 <video src="./assets/video/RIO.mp4" id="video-player" width="320px" height="230px"  poster="./assets/images/Layer 25.png"> </video>
+                      <div id="video_button">     </div>
+                  </div>
+           </div>
+            <div class="view__item_social">
+                <div class="view__item_social-img"><img src="./assets/svg/twitter.svg" alt=""></div>
+            </div>
+          </div>
+           <div class=" data-box">25<br><span>April</span> </div>
+       </div>
+           <div class="progress ">
+               <div class="progress__bar"></div>
+           </div>
+      </section>
+        <!-------------------------------different-------------------------------->
+        <section class="different">
+        <h3>Lorem ipsum dolor sit amet</h3>
+        <div class="different__items container row">
+            <div class="different__items_img">
+                <div class="first">
+                   <img src="./assets/images/Layer 30.png" alt="">
+                </div>
+                <div class="second">
+                   <img src="./assets/images/Layer 33.png" alt="">
+                   <img src="./assets/images/Layer 31.png" alt="">
+                </div>
+            </div>
+            <div class=" different__items_text">
+                <ul>
+                    <li>Sed ut perspiciatis unde omnis</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>
+                    <li>Sed ut perspiciatis unde omnis</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing </li>
+                </ul>
+            </div>
+        </div>
+        </section>
+    </section>
+        <!--===================================footer=============================-->
+    <section class="footer">
+        <div class="footer-wrapper container row">
+            <div class="logo">
+                <a href=""><img src="img/Group 1.png" alt=""></a>
+                <a href=""><h1>Theyealow</h1></a>
+            </div>
+            <div class="autor">Designed by authorun.com</div>
+        </div>
+    </section>
     
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script type="text/javascript">
+    </script>
 </body>
 </html>
